@@ -89,7 +89,7 @@ public class EntradaVariables {
         float maxValorfloat = Float.MAX_VALUE;
         float minValorfloat = Float.MIN_VALUE;
         System.out.println("Valor max;" + maxValorfloat);
-        System.out.println("Valor min;" + minValorfloat);
+        System.out.println("Valor min;" + minValorfloat+"\n\n");
 
 
         System.out.println("          \t\tMax                                     \t\t\t\t\t\t\tMin");
