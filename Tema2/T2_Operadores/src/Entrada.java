@@ -1,10 +1,59 @@
+import java.util.Scanner;
+
 public class Entrada {
+
     public static void main(String[] args) {
-        // operarAritmeticos()
+        //operarAritmeticos();
         //operarAritmeticos();
         //operadoresAsignacion();
         //operadoresRelacionales();
-        operadoresLogicos();
+        //operadoresLogicos();
+        //metodoSinRetorno();
+        //metodoConRetorno();
+
+        //metodos:sumar,restar,multiplicar,dividir y modular
+        //dentro de cada uno de los metodos definir los operandos
+        //retornan un numero
+
+        //El resultado de la suma es XXXX
+
+        /*System.out.printf("El resultado de la suma es %d%n", suma());
+        System.out.printf("El resultado de la resta es %d%n", resta());
+        System.out.printf("El resultado de la multiplicación es %d%n", multiplicacion());
+        System.out.printf("El resultado de la division es %d%n", division());
+        System.out.printf("El resultado del modular es %d%n", modular());*/
+
+        //metodoConParametros("Hector", 23);
+        //System.out.println("Otra ejecucion del metodo");
+        //metodoConParametros("Pepe", 8);
+        // en el main se definen 2 operadores
+        // en los metodos s,r,m,d,m pero los operadores son los que me da el main
+        /*System.out.printf("El resultado de la suma es %d%n", metodoSuma(2,2));
+        System.out.printf("El resultado de la resta es %d%n", metodoResta(2,2));
+        System.out.printf("El resultado de la multiplicacion es %d%n", metodoMultiplicacion(2,2));
+        System.out.printf("El resultado de la division es %d%n", metodoDivision(2,2));
+        System.out.printf("El resultado de la modulo es %d%n", metodoModulo(2,2));*/
+
+        // Scanner --> complejo --> muchas funionalidades
+        // Tipo nombre = new Tipo()
+
+        //String nombre = new String(original="gsdfgsdfg");
+        Scanner lecturaTeclado = new Scanner(System.in); //null
+        System.out.println("Por favor introduce el numero que quieres leer");
+        int numeroLeido = lecturaTeclado.nextInt();
+        System.out.println("El numero leido es :"+numeroLeido);
+
+        // realizar las operaciones matematicas donde se pida por teclado los operandos que necesito en cada operacion
+        // crear un metodo que se llame saludar() +nombre apellidos y saludar
+        // introduce tu nombre
+        // introduce tu apellido
+        // introduce tu edad
+        // bienenido a la clase de programacion, los datos pasados son
+        // nombre xxx
+        // apellido xxx
+        //edad xxx
+
+
     }
 
     private static void operarAritmeticos() {
@@ -134,6 +183,90 @@ public class Entrada {
         /*/ && (puerta logica AND)  OP OP (operador) (true o false) T+T ; T+F ; F+T; F+F, R= T ; F ; F ; F
             || (puerta logica OR) OP OP ; T+T ; T+f; F+T; F+F ;  T; T; T;
          */
+        int numeroUno = 10, numeroDos = 6, numeroTres = 3;
+        boolean acierto = false, resultado; //resultado = false
+        String nombre; // se inicializa a null
+
+        resultado = (numeroDos < 6) || (numeroTres != numeroUno) || numeroUno > 10;
+        //              False                   True                False       = TRUE
+        System.out.printf("El resultado de la sentencia lógica es %b%n", resultado);
+
+        resultado = numeroUno > 0 && numeroTres < numeroDos && !acierto;
+        //                True                 True             True    = TRUE
+        System.out.printf("El resultado de la sentencia lógica es %b%n", resultado);
+
+        // mod_acceso (public, protectec, private)
+        // static es un acceso directo
+        // void  --> retorno vacío: solo ejecuta lo que esta definido dentro
+        // int,double,string,float,boolean,cualquier tipo --> retorno tipo: se ejecutan tod0 lo que hay en el metodo y al final me da un resultado
+        // si tiene retorno, la ultima palabra del metodo es return
+
+        // public static void metodoSinRetorno () {
+        System.out.printf("Esto es un metodo que no tiene retorno");
+        System.out.printf("Solo tiene ejecuciones");
+        //public static int metodoConRetorno () {
+    }
+    //metodos:sumar,restar,multiplicar,dividir y modular
+    //dentro de cada uno de los metodos definir los operandos
+    //retornan un numero
+
+    //El resultado de la suma es XXXX
+
+    public static int suma() {
+        int numeroUno = 2, numeroDos = 3;
+        int resultado = numeroUno + numeroDos;
+        return resultado;
     }
 
+    public static int resta() {
+        int numeroUno = 1, numeroDos = 2;
+        int resultado = numeroDos - numeroUno;
+        return resultado;
+    }
+
+    public static int multiplicacion() {
+        int numeroUno = 2, numeroDos = 2;
+        int resultado = numeroUno * numeroDos;
+        return resultado;
+    }
+
+    public static int division() {
+        int numeroUno = 5, numeroDos = 5;
+        int resultado = numeroUno / numeroDos;
+        return resultado;
+    }
+
+    public static int modular() {
+        int numeroUno = 10, numeroDos = 2;
+        int resultado = numeroUno % numeroDos;
+        return resultado;
+    }
+    // tipo nombreTemporal, tipo nombreTemporal
+    public static void metodoConParametros(String nombre, int numero){
+        System.out.printf("El nombre pasado es %s%n",nombre);
+        System.out.printf("El numero pasado es %d%n",numero);
+    }
+
+    // en el main se definen 2 operadores
+    // en los metodos s,r,m,d,m pero los operadores son los que me da el main
+
+    public static int metodoSuma(int numeroUno, int numeroDos){
+        return numeroUno + numeroDos;
+    }
+    public static int metodoResta(int numeroUno, int numeroDos){
+        return numeroUno - numeroDos;
+    }
+    public static int metodoMultiplicacion(int numeroUno, int numeroDos){
+        return numeroUno * numeroDos;
+    }
+    public static int metodoDivision(int numeroUno, int numeroDos){
+        return numeroUno / numeroDos;
+    }
+    public static int metodoModulo(int numeroUno, int numeroDos){
+        return numeroUno % numeroDos;
+    }
 }
+
+
+
+
