@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="590f6a6d-b8cc-4a92-9b72-1bfa6c497aa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1/src/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio7y8/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio7y8/src/ejemplo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermercado/src/Alimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermercado/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermercado/src/Mueble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermercado/src/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermercado/src/Ropa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermercado/src/Supermercado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7/src/ClaseColeccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T7/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T8_Ficheros/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T8_Ficheros/src/Ficheros/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T8_Ficheros/src/Ficheros/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T8_Ficheros/src/Ficheros/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T8_Ficheros/src/OperacionesFicheros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5cfecf22-3912-4d92-9eff-9bee866f0668" />
+        <option name="url" value="https://github.com/HectorPrietoCES/HectorPrieto_PRO.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NPOEgy57VR2AlV67UGIbHvMtMA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LecturaJSON" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="590f6a6d-b8cc-4a92-9b72-1bfa6c497aa9" name="Default Changelist" comment="" />
+      <created>1679562146191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679562146191</updated>
+    </task>
+    <servers />
+  </component>
+</project>
